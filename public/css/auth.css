@@ -36,6 +36,9 @@ body {
 .title .highlight {
   color: #E95C4B; /* warna biru di “UBeli” */
 }
+.title .secondary {
+  color: #344FA0; /* warna biru di “UBeli” */
+}
 
 /* Form */
 .register-form {

@@ -14,7 +14,7 @@
   <body>
     <div class="wrapper">
       <div class="form-container">
-        <h2 class="title">Daftar ke <span class="highlight">UBeli</span></h2>
+        <h2 class="title">Daftar ke <span class="highlight">U</span><span class="secondary">Beli</span></h2>
 
         <form action="#" method="POST" class="register-form">
           <input type="email" placeholder="email@domain.com" required>
