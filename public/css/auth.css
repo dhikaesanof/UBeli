@@ -139,7 +139,7 @@ body {
 .btn2 {
   display: inline-block; /* penting banget */
   align-self: center;  /* biar rata kanan */
-  margin-top: -22px;     /* geser sedikit naik */
+  margin-top: -22px;     
   margin-bottom: +3px;   
   color: var(--Accent, #E95C4B);
   font-size: 12px;
