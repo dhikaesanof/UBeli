@@ -2,16 +2,85 @@ body {
     font-family: 'Inter', sans-serif;
     background-color: #ffffff;
     margin: 0;
-    height: 100vh;
+}
+
+.navbar-wrapper {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    padding: 12px 40px;
+}
+
+.navbar .highlight {
+    color: var(--Secondary, #344FA0);
+    
 }
 
 .navbar-icon {
-    padding: 12px 16px;
-    border: 1.5px solid #344FA0;
-    border-radius: 6px;
-    font-size: 0.95rem;
-    outline: none;
+    color: var(--Accent, #E95C4B);
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-jualbarang {
+    padding: 10px 14px;
+    border-radius: 7px;
+    background: var(--Accent, #E95C4B);
+
+    /*typography*/
+    color: var(--Surface-2, #FDE5E3);
+    text-align: center; 
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1px; 
+    margin-left: 699px;
+    margin-right: 50px;
+
+    display: inline-block;
+}
+
+.navbar-jualbarang a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.icon-plus {
+    width: 20px;
+    height: 20px;
+    stroke-width: 4 !important;
+    margin-right: 5px;
+    stroke: currentColor;
+}
+
+.navbar-action {
+    display: flex;
+    margin-left: auto;
+    gap: 24px;
+    align-items: center;
+}
+
+.navbar-action a svg {
+    stroke: #272D4E; /* warna hitam elegan */
+    stroke-width: 2.2;
 }
