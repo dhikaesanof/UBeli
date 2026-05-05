@@ -14,7 +14,7 @@
   <body>
     <div class="wrapper">
       <div class="form-container">
-        <h2 class="title">Masuk ke <span class="highlight">UBeli</span></h2>
+        <h2 class="title">Masuk ke <span class="highlight">U</span><span class="secondary">Beli</span></h2>
 
         <form action="{{ route('login.post') }}" method="POST" class="register-form">
           @csrf
@@ -30,7 +30,7 @@
           </div>
           <!--<a href="" class="lupapw">Lupa kata sandi?</a> -->
           <button type="submit" class="btn">Masuk</button>
-          <a href="{{ route('regis')}}" class="btn2">Daftar Sekarang</a>
+          <a href="{{ route('regis')}}" class="btn2">Belum punya akun?</a>
         </form>
       </div>
     </div>

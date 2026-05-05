@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\PaymentController;
 
 Route::get('/login', function() {
     return view('login');
@@ -21,4 +22,7 @@ Route::get('/logout', function () {
     Auth::logout();
     return redirect('/login');
 })->name('logout');
+
+Route::get('/checkout', [PaymentController::class, 'createSnapToken']);
+
 
